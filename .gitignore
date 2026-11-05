@@ -1,0 +1,11 @@
+# Arduino IDE build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
