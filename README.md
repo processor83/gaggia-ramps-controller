@@ -82,18 +82,22 @@ le Mega, aucun problème.
 
 ## Liste des pièces
 
-| Pièce | Détail | Tu l'as ? |
-|---|---|---|
-| Arduino Mega 2560 + RAMPS 1.4 | de ton imprimante | ✅ |
-| LCD graphique 128x64 ST7920 | RepRapDiscount Full Graphic Smart Controller (souvent fourni avec le kit RAMPS) | ✅ si dans ton kit |
-| Alim 12 V, 2 A+ | de ton imprimante (elle alimente le RAMPS + Mega + SSR) | ✅ |
-| SSR-40DA + dissipateur | élément chauffant (~12 A à 120 V) | à acheter |
-| SSR-25DA | solénoïde 3-way SEUL (~0,5 A) | à acheter |
-| Dimmer AC RobotDyn 1 canal (avec zero-cross, 110 V) | pompe — contrôle de phase, c'est lui qui règle la pression | à acheter |
-| 2× thermistor 100k NTC, beta 3950, **à cosse annulaire (œillet M3/M4)** | un sur la chaudière (PID), un sur la tête de groupe (affichage) | à acheter |
-| Capteur pression **XDB401, 0–1.2 MPa, G1/4, 5 V, 0.5–4.5 V** | le standard Gaggiuino — OBLIGATOIRE avec le dimmer (boucle fermée) | à acheter |
-| Té 6 mm + raccord 6 mm barb × 1/4" + bout de tuyau HP + colliers | pour brancher le capteur sur le tuyau pompe → chaudière | à acheter |
-| Fil, cosses, gaine thermo, ruban PTFE | | à acheter |
+| Photo | Pièce | Détail | Tu l'as ? |
+|---|---|---|---|
+| <img src="https://www.canadarobotix.com/cdn/shop/products/266_1_1200x1200.jpg?v=1597251812" width="120"> | Arduino Mega 2560 | la carte | ✅ |
+| <img src="https://sumeetinstruments.com/image/cache/catalog/3dprinter/ramps-shield-1-4-for%20arduino-mega-2560-550x550.jpg" width="120"> | RAMPS 1.4 | shield qui se branche sur le Mega | ✅ |
+| <img src="https://ae01.alicdn.com/kf/HTB18tKAXOnrK1RjSsziq6xptpXan.jpg_.webp" width="120"> | LCD graphique 128x64 ST7920 | RepRapDiscount Full Graphic Smart Controller (souvent fourni avec le kit RAMPS) | ✅ si dans ton kit |
+| — | Alim 12 V, 2 A+ | de ton imprimante (elle alimente le RAMPS + Mega + SSR) | ✅ |
+| <img src="https://www.picclickimg.com/0tEAAOSwe35bcm8K/SSR-40DA-SSR-25DA-SSR-60DA-60A-40A-25A-250V-Solid-State-Relay.webp" width="120"> | SSR-40DA + dissipateur | élément chauffant (~12 A à 120 V) | à acheter |
+| <img src="https://i.ebayimg.com/images/g/28AAAOSwEz5leefr/s-l1600.jpg" width="120"> | SSR-25DA | solénoïde 3-way SEUL (~0,5 A) | à acheter |
+| <img src="https://m.media-amazon.com/images/I/51mGNgoZAhL._AC_SL330_.jpg" width="120"> | Dimmer AC RobotDyn 1 canal (avec zero-cross, 110 V) | pompe — contrôle de phase, c'est lui qui règle la pression | à acheter |
+| <img src="https://m.media-amazon.com/images/I/414WS1Kn9AL._SL1000_.jpg" width="120"> | 2× thermistor 100k NTC, beta 3950, **à cosse annulaire (œillet M3/M4)** | un sur la chaudière (PID), un sur la tête de groupe (affichage) | à acheter |
+| <img src="https://cdn.shopify.com/s/files/1/0656/8312/8534/articles/2_e818263d-a737-4bc2-87d1-e662f3a5f971.jpg?v=1710092399" width="120"> | Capteur pression **XDB401, 0–1.2 MPa, G1/4, 5 V, 0.5–4.5 V** | le standard Gaggiuino — OBLIGATOIRE avec le dimmer (boucle fermée) | à acheter |
+| <img src="https://i5.walmartimages.com/asr/b3447c7f-c707-4b6a-adca-aed2bb31a8b9.bcab65d295d4b05c8982fdd168ebc04e.jpeg" width="120"> | Té 6 mm + raccord 6 mm barb × 1/4" + bout de tuyau HP + colliers | pour brancher le capteur sur le tuyau pompe → chaudière | à acheter |
+| <img src="https://m.media-amazon.com/images/I/81x4vWCnF3L.jpg" width="120"> | Fil, cosses, gaine thermo, ruban PTFE | | à acheter |
+
+Photos : images produits des vendeurs (liens externes), pour identifier
+chaque pièce — ce ne sont pas les pièces exactes que tu vas recevoir.
 
 **Le 3e thermistor (T2) est optionnel** : la vapeur se lit sur la sonde
 chaudière, la consigne change juste. Deux thermistors suffisent.

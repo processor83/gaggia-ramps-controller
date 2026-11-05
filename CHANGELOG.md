@@ -7,6 +7,7 @@ Le format s'inspire de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+- Photos des pièces ajoutées au tableau « Liste des pièces » du README.
 - Correction BOM en attente (non appliquée) : le capteur XDB401 est à
   19,28 $ sur AliExpress en vente 11.11 jusqu'au 18 nov 2026, contre
   29,37 $ au BOM — le total obligatoire (~62 $ CAD) serait ~10 $ plus bas
